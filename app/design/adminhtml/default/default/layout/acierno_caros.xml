@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <acierno_caros_adminhtml_slider_index>
+        <reference name="content">
+            <block type="acierno_caros/adminhtml_slider" name="acierno.caros.adminhtml.slider.grid"/>
+        </reference>
+    </acierno_caros_adminhtml_slider_index>
+    <acierno_caros_adminhtml_slider_edit>
+        <reference name="left">
+            <block type="acierno_caros/adminhtml_slider_edit_tabs" name="acierno.caros.adminhtml.slider.edit.tab" />
+        </reference>
+        <reference name="content">
+            <block type="acierno_caros/adminhtml_slider_edit" name="acierno.caros.adminhtml.slider.edit" />
+        </reference>
+    </acierno_caros_adminhtml_slider_edit>
+</layout>

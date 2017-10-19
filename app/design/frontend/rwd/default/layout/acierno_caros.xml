@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <cms_index_index>
+        <reference name="head">
+            <action method="addJs">
+                <file helper="acierno_caros/getJsBasedOnConfig"/>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/slideshow.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/slideshow.css</name>
+            </action>
+        </reference>
+        <reference name="content">
+            <block before="content" type="acierno_caros/slider" name="homepage_slider"
+                   template="acierno_caros/createcaros.phtml"/>
+        </reference>>
+    </cms_index_index>
+</layout>

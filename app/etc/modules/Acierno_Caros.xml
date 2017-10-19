@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Acierno_Caros>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Acierno_Caros>
+    </modules>
+</config>

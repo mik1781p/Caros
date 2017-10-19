@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <menu>
+        <cms>
+            <children>
+                <acierno_caros>
+                    <title>Caros</title>
+                    <sort_order>90</sort_order>
+                    <children>
+                        <acierno_caros_slider>
+                            <title>Sliders</title>
+                            <sort_order>10</sort_order>
+                            <action>acierno_caros/adminhtml_slider</action>
+                        </acierno_caros_slider>
+                    </children>
+                </acierno_caros>
+            </children>
+        </cms>
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow everything</title>
+            </all>
+            <admin>
+                <children>
+                    <cms>
+                        <children>
+                            <acierno_caros translate="title">
+                                <title>Acierno Caros</title>
+                                <sort_order>90</sort_order>
+                            </acierno_caros>
+                        </children>
+                    </cms>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <acierno_caros translate="title">
+                                        <title>Acierno Caros</title>
+                                        <sort_order>100</sort_order>
+                                    </acierno_caros>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
