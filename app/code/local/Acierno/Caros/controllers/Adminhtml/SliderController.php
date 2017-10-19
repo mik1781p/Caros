@@ -130,7 +130,6 @@ class Acierno_Caros_Adminhtml_SliderController extends Mage_Adminhtml_Controller
 
 
                         //Start to link to the lookup table
-                        //TODO aggiustare ridondanza in Database
                         $imageHandle->setData('slider_id', $id);
                         $imageHandle->setData('path', $path . DS . $fname);
                         $imageHandle->save();
@@ -159,7 +158,6 @@ class Acierno_Caros_Adminhtml_SliderController extends Mage_Adminhtml_Controller
     public function deleteAction()
     {
 
-        //TODO add cascade delete on lookup folder
         //Load object
         $slider = Mage::getModel('acierno_caros/slider')->load($this->getRequest()->getParam('slider_id'));
 

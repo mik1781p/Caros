@@ -1,25 +1,29 @@
 <?php
+
 /**
- * Created by PhpStorm.
- * User: skaarl
- * Date: 19/10/17
- * Time: 13.06
+ * Acierno Carousell
+ */
+
+/**
+ * Acierno_Caros_Block_Adminhtml_Slider
+ *
+ *
+ * Backend Slider Block
+ * @author Michele Acierno <michele.acierno@thinkopen.it>
+ * @version 0.2.0
+ * @package Cms
  */
 class Acierno_Caros_Block_Adminhtml_Slider extends Mage_Adminhtml_Block_Widget_Grid_Container {
 
     public function __construct()
     {
 
-        //Quale sarà il block group da utilizzare
         $this->_blockGroup = 'acierno_caros';
 
-        //Quale controller sarà utilizzato
         $this->_controller = 'adminhtml_slider';
 
-        //Settiamo l'header text con con traduzione
         $this->_headerText = $this->__('Carousell Sliders');
 
-        //richiamiamo il construct del padre
         parent::__construct();
     }
 

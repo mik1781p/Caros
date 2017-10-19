@@ -1,9 +1,17 @@
 <?php
+
 /**
- * Created by PhpStorm.
- * User: skaarl
- * Date: 19/10/17
- * Time: 13.06
+ * Acierno Carousell
+ */
+
+/**
+ * Acierno_Caros_Block_Adminhtml_Slider_Grid
+ *
+ *
+ * Backend Slider Grid
+ * @author Michele Acierno <michele.acierno@thinkopen.it>
+ * @version 0.2.0
+ * @package Cms
  */
 class Acierno_Caros_Block_Adminhtml_Slider_Grid extends Mage_Adminhtml_Block_Widget_Grid {
 
